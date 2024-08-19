@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('./src/font/Norse-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a {
+    /* text-decoration: none; */
+    color: inherit; /* Or specify your desired color */
+}
+body{
+    width: 100%;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.leftCol{
+    width: 33%;
+    /* background-color: red; */
+    background-image: url(./src/img/photo-1585202900225-6d3ac20a6962.avif);
+    background-size: cover;
+
+}
+.logoBG{
+    position: relative;
+    top: 25vh;
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    height: 100%;
+    display: flex;
+}
+.logo img{
+    height: 90%;
+    align-self: center;
+}
+.logoText{
+    font-family: 'Norse-Bold', sans-serif;
+    color: white;
+    font-size: 5rem;
+}
+.imgCreditContainer{
+    position: relative;
+    top: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    align-self: end;
+}
+.imgCredit{
+    color: white;
+}
+.rightCol{
+    width: 66%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightCol .top{
+    /* background-color: wheat; */
+    height: 33%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.top p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 40px;
+
+}
+.rightCol .mid{
+
+    height: 33%;
+    width: calc(100% + 14px);
+    box-shadow: 6px 6px 6px rgba(0, 0, 0, 0.25);
+}
+
+.rightCol .btm{
+    height: 33%;
+    width: 100%;
+}
+
+
+.mid p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 40px;
+}
+
+.btm button{
+    background-color: #596D48;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border: none;
+    margin: 20px 0;
+    padding: 10px 40px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+.btm span{
+    margin: 40px;
+    font-weight: bold;
+}
+
+.btm a{
+    text-decoration: none;
+    color: #596D48;
+
+}
+
